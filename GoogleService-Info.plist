@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>916315591739-enmorucpsoh5j7qroq19dba4t44qgk8t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.916315591739-enmorucpsoh5j7qroq19dba4t44qgk8t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD9_NzxoyfWkiXTaLdUMyZiPeBIK9CbkJ4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>916315591739</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Testing.College-Search-Notebook</string>
+	<key>PROJECT_ID</key>
+	<string>college-search-notebook</string>
+	<key>STORAGE_BUCKET</key>
+	<string>college-search-notebook.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:916315591739:ios:17c6949f47f0b99640b81e</string>
+</dict>
+</plist>

@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC41D6AA2904F97C00AF0C07 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6A92904F97C00AF0C07 /* AccountViewModel.swift */; };
+		EC41D6AD2904FA0700AF0C07 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6AC2904FA0700AF0C07 /* Alert.swift */; };
+		EC41D6B02904FABB00AF0C07 /* Email+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6AF2904FABB00AF0C07 /* Email+ext.swift */; };
+		EC41D6B22904FC3800AF0C07 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6B12904FC3800AF0C07 /* Date+Ext.swift */; };
+		EC41D6B42905F02B00AF0C07 /* data-detailed.csv in Resources */ = {isa = PBXBuildFile; fileRef = EC41D6B32905F02B00AF0C07 /* data-detailed.csv */; };
+		EC41D6B62905FA7500AF0C07 /* TextEditorSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */; };
 		EC6CEEB828CED40600DA1482 /* College_Search_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */; };
-		EC6CEEBA28CED40600DA1482 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEB928CED40600DA1482 /* ContentView.swift */; };
+		EC6CEEBA28CED40600DA1482 /* CollegeSearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEB928CED40600DA1482 /* CollegeSearchTabView.swift */; };
 		EC6CEEBC28CED40B00DA1482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6CEEBB28CED40B00DA1482 /* Assets.xcassets */; };
 		EC6CEEBF28CED40B00DA1482 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6CEEBE28CED40B00DA1482 /* Preview Assets.xcassets */; };
+		EC6CEEC828CED4BC00DA1482 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEC728CED4BC00DA1482 /* AccountView.swift */; };
+		EC6CEECA28CED4C700DA1482 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEC928CED4C700DA1482 /* SearchView.swift */; };
+		EC6CEECC28CED4D600DA1482 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEECB28CED4D600DA1482 /* MyListView.swift */; };
+		EC89774A28F3BD120051E63B /* CollegeDetailNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89774928F3BD120051E63B /* CollegeDetailNotesView.swift */; };
+		EC8D1F8D28E2619C0032049A /* CollegeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D1F8C28E2619C0032049A /* CollegeDetailView.swift */; };
+		EC8D1F8F28E2640E0032049A /* CollegeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D1F8E28E2640E0032049A /* CollegeData.swift */; };
+		ECB50EEC2904A3480080B16F /* ParseCSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB50EEB2904A3480080B16F /* ParseCSV.swift */; };
+		ECC719DC28FE3CDD00822A1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ECC719DB28FE3CDD00822A1D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC41D6A92904F97C00AF0C07 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		EC41D6AC2904FA0700AF0C07 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		EC41D6AF2904FABB00AF0C07 /* Email+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Email+ext.swift"; sourceTree = "<group>"; };
+		EC41D6B12904FC3800AF0C07 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		EC41D6B32905F02B00AF0C07 /* data-detailed.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-detailed.csv"; sourceTree = SOURCE_ROOT; };
+		EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorSuggestions.swift; sourceTree = "<group>"; };
 		EC6CEEB428CED40600DA1482 /* College Search Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Search Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Search_NotebookApp.swift; sourceTree = "<group>"; };
-		EC6CEEB928CED40600DA1482 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC6CEEB928CED40600DA1482 /* CollegeSearchTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeSearchTabView.swift; sourceTree = "<group>"; };
 		EC6CEEBB28CED40B00DA1482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC6CEEBE28CED40B00DA1482 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC6CEEC728CED4BC00DA1482 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		EC6CEEC928CED4C700DA1482 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		EC6CEECB28CED4D600DA1482 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		EC89774928F3BD120051E63B /* CollegeDetailNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailNotesView.swift; sourceTree = "<group>"; };
+		EC8D1F8C28E2619C0032049A /* CollegeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailView.swift; sourceTree = "<group>"; };
+		EC8D1F8E28E2640E0032049A /* CollegeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeData.swift; sourceTree = "<group>"; };
+		ECB50EEB2904A3480080B16F /* ParseCSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseCSV.swift; sourceTree = "<group>"; };
+		ECC719DB28FE3CDD00822A1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +60,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC41D6AB2904F99400AF0C07 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				EC41D6AC2904FA0700AF0C07 /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		EC41D6AE2904FA9700AF0C07 /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				EC41D6AF2904FABB00AF0C07 /* Email+ext.swift */,
+				EC41D6B12904FC3800AF0C07 /* Date+Ext.swift */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
 		EC6CEEAB28CED40600DA1482 = {
 			isa = PBXGroup;
 			children = (
+				EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */,
 				EC6CEEB628CED40600DA1482 /* College Search Notebook */,
 				EC6CEEB528CED40600DA1482 /* Products */,
 			);
@@ -51,9 +97,15 @@
 		EC6CEEB628CED40600DA1482 /* College Search Notebook */ = {
 			isa = PBXGroup;
 			children = (
-				EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */,
-				EC6CEEB928CED40600DA1482 /* ContentView.swift */,
+				EC6CEEB928CED40600DA1482 /* CollegeSearchTabView.swift */,
+				EC8D1F8E28E2640E0032049A /* CollegeData.swift */,
+				ECA6E79928F50878003DAA45 /* My List */,
+				ECA6E79C28F508F8003DAA45 /* College Detail Page */,
+				ECA6E79A28F508C1003DAA45 /* Account */,
+				ECA6E79B28F508DB003DAA45 /* Search */,
+				ECB50EEA2904A22E0080B16F /* CSV return */,
 				EC6CEEBB28CED40B00DA1482 /* Assets.xcassets */,
+				ECC719DB28FE3CDD00822A1D /* GoogleService-Info.plist */,
 				EC6CEEBD28CED40B00DA1482 /* Preview Content */,
 			);
 			path = "College Search Notebook";
@@ -65,6 +117,52 @@
 				EC6CEEBE28CED40B00DA1482 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA6E79928F50878003DAA45 /* My List */ = {
+			isa = PBXGroup;
+			children = (
+				EC6CEECB28CED4D600DA1482 /* MyListView.swift */,
+			);
+			path = "My List";
+			sourceTree = "<group>";
+		};
+		ECA6E79A28F508C1003DAA45 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				EC6CEEC728CED4BC00DA1482 /* AccountView.swift */,
+				EC41D6A92904F97C00AF0C07 /* AccountViewModel.swift */,
+				EC41D6AE2904FA9700AF0C07 /* Ext */,
+				EC41D6AB2904F99400AF0C07 /* Alerts */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		ECA6E79B28F508DB003DAA45 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				EC6CEEC928CED4C700DA1482 /* SearchView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		ECA6E79C28F508F8003DAA45 /* College Detail Page */ = {
+			isa = PBXGroup;
+			children = (
+				EC8D1F8C28E2619C0032049A /* CollegeDetailView.swift */,
+				EC89774928F3BD120051E63B /* CollegeDetailNotesView.swift */,
+			);
+			path = "College Detail Page";
+			sourceTree = "<group>";
+		};
+		ECB50EEA2904A22E0080B16F /* CSV return */ = {
+			isa = PBXGroup;
+			children = (
+				ECB50EEB2904A3480080B16F /* ParseCSV.swift */,
+				EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */,
+				EC41D6B32905F02B00AF0C07 /* data-detailed.csv */,
+			);
+			path = "CSV return";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +181,8 @@
 			dependencies = (
 			);
 			name = "College Search Notebook";
+			packageProductDependencies = (
+			);
 			productName = "College Search Notebook";
 			productReference = EC6CEEB428CED40600DA1482 /* College Search Notebook.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +211,8 @@
 				Base,
 			);
 			mainGroup = EC6CEEAB28CED40600DA1482;
+			packageReferences = (
+			);
 			productRefGroup = EC6CEEB528CED40600DA1482 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +229,8 @@
 			files = (
 				EC6CEEBF28CED40B00DA1482 /* Preview Assets.xcassets in Resources */,
 				EC6CEEBC28CED40B00DA1482 /* Assets.xcassets in Resources */,
+				EC41D6B42905F02B00AF0C07 /* data-detailed.csv in Resources */,
+				ECC719DC28FE3CDD00822A1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +241,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC6CEEBA28CED40600DA1482 /* ContentView.swift in Sources */,
+				EC6CEECA28CED4C700DA1482 /* SearchView.swift in Sources */,
+				EC89774A28F3BD120051E63B /* CollegeDetailNotesView.swift in Sources */,
+				EC41D6B22904FC3800AF0C07 /* Date+Ext.swift in Sources */,
+				EC6CEEC828CED4BC00DA1482 /* AccountView.swift in Sources */,
+				EC6CEEBA28CED40600DA1482 /* CollegeSearchTabView.swift in Sources */,
+				EC8D1F8D28E2619C0032049A /* CollegeDetailView.swift in Sources */,
+				ECB50EEC2904A3480080B16F /* ParseCSV.swift in Sources */,
+				EC41D6AA2904F97C00AF0C07 /* AccountViewModel.swift in Sources */,
 				EC6CEEB828CED40600DA1482 /* College_Search_NotebookApp.swift in Sources */,
+				EC41D6AD2904FA0700AF0C07 /* Alert.swift in Sources */,
+				EC8D1F8F28E2640E0032049A /* CollegeData.swift in Sources */,
+				EC41D6B02904FABB00AF0C07 /* Email+ext.swift in Sources */,
+				EC41D6B62905FA7500AF0C07 /* TextEditorSuggestions.swift in Sources */,
+				EC6CEECC28CED4D600DA1482 /* MyListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
