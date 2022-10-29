@@ -9,26 +9,25 @@ import SwiftUI
 
 struct MyListView: View {
     var colleges = loadCSV(from: "data-detailed")
-    @State var myList: Bool = false
+    @StateObject var vm = ViewModel()
     
     var body: some View {
         NavigationView {
             List {
-                ForEach(colleges) { college in
-           
+                ForEach(vm.filteredItems) { college in
                     NavigationLink(destination:
-                                    CollegeDetailView(college: college, myList: $myList)) {
-                        Text(college.name)
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                            .lineLimit(0)
-                            .padding(10)
+                                    CollegeDetailView(college: college)) {
+                            Text(college.name)
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .lineLimit(0)
+                                .padding(10)
                     }
-           
                 }
             }
             .navigationTitle("My College List")
         }
+        .onAppear(perform: vm.sortFavs)
     }
 }
 

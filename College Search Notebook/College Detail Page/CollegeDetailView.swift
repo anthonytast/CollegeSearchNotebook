@@ -13,7 +13,7 @@ struct CollegeDetailView: View {
     var college: collegeData
     @State var selectedSchoolType = ""
     let schoolTypes = ["Reach School", "Match School", "Safety School"]
-    @Binding var myList: Bool
+
     
     var body: some View {
             Form {
@@ -50,8 +50,8 @@ struct CollegeDetailView: View {
                     }
                 }
                 
-                Section(header: Text("Options")) {
-                    Toggle("Add to My List ⭐️", isOn: $myList)
+                Section {
+//                    Toggle("Add to My List ⭐️", isOn: college.myList)
                     
                 Picker("School Type", selection: $selectedSchoolType, content: {
                     ForEach(schoolTypes, id: \.self, content: { schoolTypes in

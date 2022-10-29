@@ -11,23 +11,28 @@ struct SearchView: View {
     
     @State var colleges = loadCSV(from: "data-detailed")
     @State private var searchText = ""
-    @State var myList = false
-    
+    @StateObject var vm = ViewModel()
     var body: some View {
         NavigationView{
             List {
                 ForEach(colleges) { college in
                     NavigationLink(destination:
-                                    CollegeDetailView(college: college, myList: $myList)) {
-                        Text(college.name)
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                            .lineLimit(0)
-                            .padding(10)
+                                    CollegeDetailView(college: college)) {
+                        HStack{
+                            Image(systemName: vm.contains(college) ? "star.fill" : "star")
+                                .onTapGesture {
+                                    vm.toggleFav(college: college)
+                                }
+                            Text(college.name)
+                                .font(.title2)
+                                .fontWeight(.semibold)
+                                .lineLimit(0)
+                                .padding(10)
+                        }
                     }
                 }
             }
-            .navigationTitle("Search Colleges")
+            .navigationTitle("College List")
         }
         .searchable(text: $searchText)
         .onChange(of: searchText) { searchText in

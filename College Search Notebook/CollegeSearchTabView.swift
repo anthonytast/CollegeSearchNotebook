@@ -10,16 +10,16 @@ import SwiftUI
 struct CollegeSearchTabView: View {
     var body: some View {
         TabView {
-            MyListView()
-                .tabItem {
-                    Image(systemName: "note.text")
-                    Text("My List")
-                }
+//            MyListView()
+//                .tabItem {
+//                    Image(systemName: "note.text")
+//                    Text("My List")
+//                }
             
             SearchView()
                 .tabItem {
-                    Image(systemName: "magnifyingglass")
-                    Text("Search")
+                    Image(systemName: "house")
+                    Text("Home")
                 }
             
             AccountView()

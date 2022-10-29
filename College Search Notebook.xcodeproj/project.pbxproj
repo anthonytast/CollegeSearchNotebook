@@ -11,7 +11,6 @@
 		EC41D6AD2904FA0700AF0C07 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6AC2904FA0700AF0C07 /* Alert.swift */; };
 		EC41D6B02904FABB00AF0C07 /* Email+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6AF2904FABB00AF0C07 /* Email+ext.swift */; };
 		EC41D6B22904FC3800AF0C07 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6B12904FC3800AF0C07 /* Date+Ext.swift */; };
-		EC41D6B42905F02B00AF0C07 /* data-detailed.csv in Resources */ = {isa = PBXBuildFile; fileRef = EC41D6B32905F02B00AF0C07 /* data-detailed.csv */; };
 		EC41D6B62905FA7500AF0C07 /* TextEditorSuggestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */; };
 		EC6CEEB828CED40600DA1482 /* College_Search_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */; };
 		EC6CEEBA28CED40600DA1482 /* CollegeSearchTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEB928CED40600DA1482 /* CollegeSearchTabView.swift */; };
@@ -20,6 +19,7 @@
 		EC6CEEC828CED4BC00DA1482 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEC728CED4BC00DA1482 /* AccountView.swift */; };
 		EC6CEECA28CED4C700DA1482 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEEC928CED4C700DA1482 /* SearchView.swift */; };
 		EC6CEECC28CED4D600DA1482 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6CEECB28CED4D600DA1482 /* MyListView.swift */; };
+		EC7CA7FE290A37B800BECCE9 /* data-detailed.csv in Resources */ = {isa = PBXBuildFile; fileRef = EC7CA7FD290A37B700BECCE9 /* data-detailed.csv */; };
 		EC89774A28F3BD120051E63B /* CollegeDetailNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89774928F3BD120051E63B /* CollegeDetailNotesView.swift */; };
 		EC8D1F8D28E2619C0032049A /* CollegeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D1F8C28E2619C0032049A /* CollegeDetailView.swift */; };
 		EC8D1F8F28E2640E0032049A /* CollegeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8D1F8E28E2640E0032049A /* CollegeData.swift */; };
@@ -32,7 +32,6 @@
 		EC41D6AC2904FA0700AF0C07 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		EC41D6AF2904FABB00AF0C07 /* Email+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Email+ext.swift"; sourceTree = "<group>"; };
 		EC41D6B12904FC3800AF0C07 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
-		EC41D6B32905F02B00AF0C07 /* data-detailed.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-detailed.csv"; sourceTree = SOURCE_ROOT; };
 		EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorSuggestions.swift; sourceTree = "<group>"; };
 		EC6CEEB428CED40600DA1482 /* College Search Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Search Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6CEEB728CED40600DA1482 /* College_Search_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_Search_NotebookApp.swift; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		EC6CEEC728CED4BC00DA1482 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		EC6CEEC928CED4C700DA1482 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		EC6CEECB28CED4D600DA1482 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		EC7CA7FD290A37B700BECCE9 /* data-detailed.csv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-detailed.csv"; sourceTree = SOURCE_ROOT; };
 		EC89774928F3BD120051E63B /* CollegeDetailNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailNotesView.swift; sourceTree = "<group>"; };
 		EC8D1F8C28E2619C0032049A /* CollegeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeDetailView.swift; sourceTree = "<group>"; };
 		EC8D1F8E28E2640E0032049A /* CollegeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeData.swift; sourceTree = "<group>"; };
@@ -160,7 +160,7 @@
 			children = (
 				ECB50EEB2904A3480080B16F /* ParseCSV.swift */,
 				EC41D6B52905FA7500AF0C07 /* TextEditorSuggestions.swift */,
-				EC41D6B32905F02B00AF0C07 /* data-detailed.csv */,
+				EC7CA7FD290A37B700BECCE9 /* data-detailed.csv */,
 			);
 			path = "CSV return";
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			files = (
 				EC6CEEBF28CED40B00DA1482 /* Preview Assets.xcassets in Resources */,
 				EC6CEEBC28CED40B00DA1482 /* Assets.xcassets in Resources */,
-				EC41D6B42905F02B00AF0C07 /* data-detailed.csv in Resources */,
+				EC7CA7FE290A37B800BECCE9 /* data-detailed.csv in Resources */,
 				ECC719DC28FE3CDD00822A1D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
